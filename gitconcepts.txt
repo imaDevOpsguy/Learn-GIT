@@ -1,0 +1,73 @@
+The Key Git Concepts:-
+-----------------------
+1.Repository:
+	It is a folder where Git track the project and its history.
+
+2.Clone:
+	Creating a copy of the remote repository to the your computer.
+
+3.Stage:
+	Instructing the Git, which change you want to save next. ---- in queue
+
+4.Commit:
+	Save a copy or snapshot of your staged changes.
+
+5.Branch:
+	Work on different versions or features at the same time.(Git is popular only because of this branching startegy)
+
+6.Merge:
+	Combines the changes from the different branches.
+
+7.Pull:
+	Get the latest changes from the remote repository.
+
+8.Push:
+	Send or push your code changes to the remote repository.
+
+#########################################################################################################################################
+
+How to Work with GIT?
+---------------------
+Every work needs to be started or Initialized right?
+
+The Moment you start or execute the git commands it allocates space and creates a folder for the git operations on your machine.
+
+git init
+	This creates a folder to maintain the git operations or activities 
+	The folder is (.git)
+	
+git config --global user.name "kannan"
+git config --global user.email "kannawin3011@gamil.com"
+	(This needs to be configured mandatorily, so we can track on which file the user made what changes through the commits) 
+
+Basically, a commit id is with the 40 long alpha+numeric characters.
+
+##############################################################################################################################################
+
+What is the Git and GitHub?
+---------------------------
+GIT:(Distributed Version Control System)
+	Its the Source Code Management tool (SCM) 
+	Over 70% of the developers user GIT.
+	Developers can work together from anywhere in the world.
+	Developers can see the full history of the project
+	Developers can revert to earlier versions of a project
+
+GITHUB:
+	Github is not same like Git
+	Github 	is the largest host of the source code in the world. it is now owned by Microsoft since 2018.
+	In general, people call it as Remote Repository Management tool.
+###############################################################################################################################################
+
+How to install git?
+-------------------
+
+It is done with the single command in linux
+	sudo apt-get install git -y
+verify
+	git
+	git --version
+Thats it, you are ready to work with the git 
+################################################################################################################################################
+
+
